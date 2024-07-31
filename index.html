@@ -1,48 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
     <title>Web Login</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class = "form-container">
-            <div class="form-header">
-                <h2>¡Bienvenido otra vez!</h2>
-                <p>Login</p>
-            </div>
-            <!--El username y el password-->
-            <form class="login-form">
-                <div class="input-group">
-                    <input type="text" name="username" id="username" required>
-                    <label for="username">Username</label>
-                </div>
-                <div class="input-group">
-                    <input type="password" name="password" id="password" required>
-                    <label for="password">Password</label>
-                </div>
-                <!--Las opciones para el Remember y el FOrget-->
-                <div class="option-group">
-                    <div class="remember-me">
-                        <input type="checkbox" name="rememberMe" id="rememberMe">
-                        <label for="rememberMe">Recuerdame</label>
-                    </div>
-                    <a href="#">Olvide mi cuenta</a>
-                </div>
-                <!--EL submit para logearse-->
-                <button type="submit">Login</button>
-                <!--EN caso de Error-->
-                <div class="error-message" id="error-message"></div>
-            </form>
-            <!--Es la opcion si en caso no tiene una cuenta registrada-->
-            <div class="form-footer">
-                <p>
-                    ¿No tienes una cuenta? <a href="#">Create una</a>
-                </p>
-            </div>
+      <div class="form-container">
+        <div class="form-header">
+          <h2>¡Bienvenido otra vez!</h2>
+          <p>Login</p>
         </div>
+        <!--El username y el password-->
+        <form class="login-form">
+          <div class="input-group">
+            <input type="text" name="username" id="username" required />
+            <label for="username">Username</label>
+          </div>
+          <div class="input-group">
+            <input type="password" name="password" id="password" required />
+            <label for="password">Password</label>
+          </div>
+          <!--Las opciones para el Remember y el FOrget-->
+          <div class="option-group">
+            <div class="remember-me">
+              <input type="checkbox" name="rememberMe" id="rememberMe" />
+              <label for="rememberMe">Recuerdame</label>
+            </div>
+            <a href="#">Olvide mi cuenta</a>
+          </div>
+          <!--EL submit para logearse-->
+          <button type="submit">Login</button>
+          <!--EN caso de Error-->
+          <div class="error-message" id="error-message"></div>
+        </form>
+        <!--Es la opcion si en caso no tiene una cuenta registrada-->
+        <div class="form-footer">
+          <p>¿No tienes una cuenta? <a href="#">Create una</a></p>
+        </div>
+      </div>
     </div>
-
-</body>
+    <!--el script-->
+    <script src="script.js"></script>
+  </body>
 </html>
