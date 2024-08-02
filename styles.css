@@ -4,6 +4,17 @@ body {
     justify-content: center;
     margin: 0;
     box-sizing: border-box;
-    background: linear-gradient(180deg, #06065f, #cec934);
+    background: linear-gradient(180deg, #4e4ea8, #c879d6);
     height: 100vh;
+    align-items: center;
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    background: #fffcfa;
+    border-radius: 10px;
+    padding: 2.4rem;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+    box-sizing: border-box;
 }
