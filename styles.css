@@ -1,0 +1,9 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; /*Pa que se vea bonico*/
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, #06065f, #cec934);
+    height: 100vh;
+}
